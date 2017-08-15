@@ -399,17 +399,38 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4762267130442286, guid: 8f437b4a237e82b4494ac11bee48d15e, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 2
+    - target: {fileID: 4456161761775952, guid: 8f437b4a237e82b4494ac11bee48d15e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.6
       objectReference: {fileID: 0}
-    - target: {fileID: 4762267130442286, guid: 8f437b4a237e82b4494ac11bee48d15e, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 2
+    - target: {fileID: 4456161761775952, guid: 8f437b4a237e82b4494ac11bee48d15e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4762267130442286, guid: 8f437b4a237e82b4494ac11bee48d15e, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 2
+    - target: {fileID: 1953818508685086, guid: 8f437b4a237e82b4494ac11bee48d15e, type: 2}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -6488666005112524639, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 198744787093341204, guid: 8f437b4a237e82b4494ac11bee48d15e,
+        type: 2}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0.27205884
+      objectReference: {fileID: 0}
+    - target: {fileID: 198744787093341204, guid: 8f437b4a237e82b4494ac11bee48d15e,
+        type: 2}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 0.27205884
+      objectReference: {fileID: 0}
+    - target: {fileID: 198744787093341204, guid: 8f437b4a237e82b4494ac11bee48d15e,
+        type: 2}
+      propertyPath: randomSeed
+      value: 554431983
+      objectReference: {fileID: 0}
+    - target: {fileID: 198744787093341204, guid: 8f437b4a237e82b4494ac11bee48d15e,
+        type: 2}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f437b4a237e82b4494ac11bee48d15e, type: 2}

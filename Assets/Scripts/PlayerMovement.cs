@@ -52,8 +52,9 @@ public class PlayerMovement : MonoBehaviour {
 
     private void Move()
     {
-        Vector3 movement = transform.forward * m_MovementInputValue * m_speed * Time.deltaTime;
-        m_Rigidbody.MovePosition(m_Rigidbody.position + movement);
+        m_Rigidbody.velocity = transform.forward * m_MovementInputValue * m_speed;
+        //Vector3 movement = transform.forward * m_MovementInputValue * m_speed * Time.deltaTime;
+        //m_Rigidbody.MovePosition(m_Rigidbody.position + movement);
     }
 
     private void Turn()
